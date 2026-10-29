@@ -1,0 +1,17 @@
+{
+  "filas_originales": 450335,
+  "columnas_originales": 9,
+  "duplicados_exactos_detectados_en_original": 159399,
+  "duplicados_exactos_eliminados_para_modelado": 159399,
+  "faltantes_edad_en_original": 20,
+  "edades_invalidas_marcadas_como_faltantes": 63,
+  "filas_con_gravedad_no_reconocida_eliminadas": 0,
+  "filas_finales_modelado": 290936,
+  "periodo_inicial": "01/2022",
+  "periodo_final": "09/2026",
+  "distribucion_gravedad": {
+    "CON HERIDOS (0)": 267633,
+    "CON MUERTOS (1)": 23303
+  },
+  "advertencia": "El archivo no tiene un identificador único de accidente. La deduplicación de filas idénticas reduce el riesgo de fuga, pero no prueba que cada fila repetida sea un error en la fuente."
+}

@@ -1,0 +1,36 @@
+{
+  "columnas_entrada": [
+    "MARCA_VEHICULO",
+    "TIPO_VEHICULO",
+    "DEPARTAMENTO_ACCIDENTE",
+    "MUNICIPIO_ACCIDENTE",
+    "AUTORIDAD_DE_TRANSITO",
+    "MODELO_VEHICULO",
+    "EDAD_VEHICULO",
+    "ANIO_ACCIDENTE",
+    "MES_ACCIDENTE"
+  ],
+  "columnas_categoricas": [
+    "MARCA_VEHICULO",
+    "TIPO_VEHICULO",
+    "DEPARTAMENTO_ACCIDENTE",
+    "MUNICIPIO_ACCIDENTE",
+    "AUTORIDAD_DE_TRANSITO"
+  ],
+  "columnas_numericas": [
+    "MODELO_VEHICULO",
+    "EDAD_VEHICULO",
+    "ANIO_ACCIDENTE",
+    "MES_ACCIDENTE"
+  ],
+  "objetivo": "GRAVEDAD_BINARIA",
+  "codificacion_objetivo": {
+    "0": "CON HERIDOS",
+    "1": "CON MUERTOS"
+  },
+  "max_filas_modelado": 20000,
+  "semilla": 42,
+  "nota": "Las métricas describen gravedad registrada entre vehículos involucrados, no riesgo causal ni probabilidad de accidente para cualquier vehículo en circulación.",
+  "limitacion_regresion_lineal": "Se umbraliza en 0.5; su salida no es una probabilidad calibrada.",
+  "limitacion_svm": "Se usa LinearSVC por escalabilidad en una tabla de cientos de miles de registros."
+}

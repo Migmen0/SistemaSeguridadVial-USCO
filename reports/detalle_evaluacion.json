@@ -1,0 +1,178 @@
+[
+  {
+    "modelo": "KNN",
+    "matriz_confusion": [
+      [
+        3641,
+        39
+      ],
+      [
+        303,
+        17
+      ]
+    ],
+    "orden_matriz": [
+      "real CON HERIDOS / CON MUERTOS",
+      "predicción CON HERIDOS / CON MUERTOS"
+    ],
+    "reporte_clasificacion": {
+      "CON HERIDOS": {
+        "precision": 0.9231744421906694,
+        "recall": 0.9894021739130435,
+        "f1-score": 0.9551416579223505,
+        "support": 3680.0
+      },
+      "CON MUERTOS": {
+        "precision": 0.30357142857142855,
+        "recall": 0.053125,
+        "f1-score": 0.09042553191489362,
+        "support": 320.0
+      },
+      "accuracy": 0.9145,
+      "macro avg": {
+        "precision": 0.613372935381049,
+        "recall": 0.5212635869565218,
+        "f1-score": 0.522783594918622,
+        "support": 4000.0
+      },
+      "weighted avg": {
+        "precision": 0.8736062011011302,
+        "recall": 0.9145,
+        "f1-score": 0.8859643678417539,
+        "support": 4000.0
+      }
+    }
+  },
+  {
+    "modelo": "SVM",
+    "matriz_confusion": [
+      [
+        2840,
+        840
+      ],
+      [
+        136,
+        184
+      ]
+    ],
+    "orden_matriz": [
+      "real CON HERIDOS / CON MUERTOS",
+      "predicción CON HERIDOS / CON MUERTOS"
+    ],
+    "reporte_clasificacion": {
+      "CON HERIDOS": {
+        "precision": 0.9543010752688172,
+        "recall": 0.7717391304347826,
+        "f1-score": 0.8533653846153846,
+        "support": 3680.0
+      },
+      "CON MUERTOS": {
+        "precision": 0.1796875,
+        "recall": 0.575,
+        "f1-score": 0.27380952380952384,
+        "support": 320.0
+      },
+      "accuracy": 0.756,
+      "macro avg": {
+        "precision": 0.5669942876344086,
+        "recall": 0.6733695652173912,
+        "f1-score": 0.5635874542124542,
+        "support": 4000.0
+      },
+      "weighted avg": {
+        "precision": 0.8923319892473118,
+        "recall": 0.756,
+        "f1-score": 0.8070009157509157,
+        "support": 4000.0
+      }
+    }
+  },
+  {
+    "modelo": "Random Forest",
+    "matriz_confusion": [
+      [
+        2929,
+        751
+      ],
+      [
+        125,
+        195
+      ]
+    ],
+    "orden_matriz": [
+      "real CON HERIDOS / CON MUERTOS",
+      "predicción CON HERIDOS / CON MUERTOS"
+    ],
+    "reporte_clasificacion": {
+      "CON HERIDOS": {
+        "precision": 0.9590700720366732,
+        "recall": 0.7959239130434783,
+        "f1-score": 0.8699138699138699,
+        "support": 3680.0
+      },
+      "CON MUERTOS": {
+        "precision": 0.20613107822410148,
+        "recall": 0.609375,
+        "f1-score": 0.3080568720379147,
+        "support": 320.0
+      },
+      "accuracy": 0.781,
+      "macro avg": {
+        "precision": 0.5826005751303873,
+        "recall": 0.7026494565217392,
+        "f1-score": 0.5889853709758923,
+        "support": 4000.0
+      },
+      "weighted avg": {
+        "precision": 0.8988349525316673,
+        "recall": 0.781,
+        "f1-score": 0.8249653100837935,
+        "support": 4000.0
+      }
+    }
+  },
+  {
+    "modelo": "Regresión lineal",
+    "matriz_confusion": [
+      [
+        3649,
+        31
+      ],
+      [
+        303,
+        17
+      ]
+    ],
+    "orden_matriz": [
+      "real CON HERIDOS / CON MUERTOS",
+      "predicción CON HERIDOS / CON MUERTOS"
+    ],
+    "reporte_clasificacion": {
+      "CON HERIDOS": {
+        "precision": 0.9233299595141701,
+        "recall": 0.9915760869565218,
+        "f1-score": 0.9562368972746331,
+        "support": 3680.0
+      },
+      "CON MUERTOS": {
+        "precision": 0.3541666666666667,
+        "recall": 0.053125,
+        "f1-score": 0.09239130434782608,
+        "support": 320.0
+      },
+      "accuracy": 0.9165,
+      "macro avg": {
+        "precision": 0.6387483130904184,
+        "recall": 0.5223505434782609,
+        "f1-score": 0.5243141008112296,
+        "support": 4000.0
+      },
+      "weighted avg": {
+        "precision": 0.8777968960863699,
+        "recall": 0.9165,
+        "f1-score": 0.8871292498404886,
+        "support": 4000.0
+      }
+    }
+  }
+]
