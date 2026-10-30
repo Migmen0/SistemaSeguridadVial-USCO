@@ -75,7 +75,7 @@ def obtener_estimadores() -> dict:
 
 
 def calcular_metricas(nombre: str, modelo: Pipeline, x_prueba: pd.DataFrame,
-                       y_prueba: pd.Series) -> tuple[dict, dict]:
+                      y_prueba: pd.Series) -> tuple[dict, dict]:
     """Calcula métricas de clasificación y guarda detalles de evaluación.
 
     La regresión lineal no es un clasificador probabilístico; sus predicciones
